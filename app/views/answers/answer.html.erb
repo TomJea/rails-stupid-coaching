@@ -1,2 +1,9 @@
-<p><%= @question %></p>
-<p><%= @answer %></p>
+<blockquote class="chat question">
+  <p><%= @question %></p>
+  <cite>-You</cite>
+</blockquote>
+
+<blockquote class="chat answer">
+  <p><strong><%= @answer %></strong></p>
+  <cite>-Your coach</cite>
+</blockquote>
